@@ -1,6 +1,6 @@
 ## 2. Basic Pemogramming
 
-Setelah saya pelajari dan sy=aya rangkum ada bebberapa poin penting
+Setelah saya pelajari dan saya rangkum ada bebberapa poin penting
 
 1. Sejarah golang
    - Go pertama dibuah pada tahun 2007 dan dirilis pada tahun 2009 salah satu developernya robert grisemer
@@ -13,4 +13,4 @@ Setelah saya pelajari dan sy=aya rangkum ada bebberapa poin penting
 5. Brancing 
    - Brancing atau perbacangan biasa digunakan ketika terjadi satu permasalahan dan menyelesaikannya menggunakan banyak jalan atau cabang bisa menggunakan Brancing agar kondisinya sesuai dengan permasalahan yang kita eksekusikan
 6. Looping 
-   - Looping atau perulangan dalam golang digunakan dengan cara memisahkan huruf "Laode" menjadi l a o d e dan sesuai indexnya
+   - Looping atau perulangan dalam golang digunakan dengan cara mengurutkan angka 1 sampai 100 tanpa harus di tulis satu persatu
