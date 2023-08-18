@@ -26,6 +26,7 @@ Setelah saya pelajari dan saya rangkum ada beberapa poin penting
 6. Looping 
    - Looping atau perulangan dalam golang digunakan dengan cara mengurutkan angka 1 sampai 100 tanpa harus di tulis satu persatu
 
+
 ## 3. Version Control and Branch Management (Git)
 
 Jadi yang saya pelajari setelah menonton video yang diberikan ada merangkum beberapa point penting
@@ -34,3 +35,12 @@ Jadi yang saya pelajari setelah menonton video yang diberikan ada merangkum bebe
 3. bagaimana gambaran flow penggunaan git di dunia kerja
 4. bagaimana cara membuat branch dan swith branch
 5. cara pull request ke branch main
+   
+
+## Time Complexity
+
+jadi setelah saya menonton video yang terlah diberikan saya memiliki beberapa kesimpulan
+
+1. Bagaimana pemilihan algorith yang efektif
+2. Pemilihan coding yang bagus
+3. Mengatur waktu running dari codingan supaya secepat mungkin
