@@ -1,19 +1,28 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	palindrom := "aan"
-	for i := 0; i < len(palindrom); i++ {
+	var palindrom string
+	fmt.Printf("Input Disini : ")
+	fmt.Scan(&palindrom)
+	b := true
+	for i := 0; i < len(palindrom)/2; i++ {
 		a := palindrom[i]
 		rumus := palindrom[len(palindrom)-i-1]
 
 		if a != rumus {
-			fmt.Println("Bukan Palindrom")
-			break
-		} else {
-			fmt.Println("Ini kata Palindrom")
+			b = false
 			break
 		}
+	}
+	if b {
+		fmt.Println("Ini kata Palindrom")
+		// break
+	} else {
+		fmt.Println("Bukan Palindrom")
+		// break
 	}
 }
