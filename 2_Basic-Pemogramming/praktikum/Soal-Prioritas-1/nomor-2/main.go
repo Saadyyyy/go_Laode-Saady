@@ -3,7 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	for i := 0; i <= 10; i++{
+	number := 100
+	for i := 0; i <= number; i++{
 		if i % 2 == 0 {
 			fmt.Println(i,"Angka genap ")
 		}
