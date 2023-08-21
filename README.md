@@ -37,7 +37,7 @@ Jadi yang saya pelajari setelah menonton video yang diberikan ada merangkum bebe
 5. cara pull request ke branch main
    
 
-## Time Complexity
+## 4. Time Complexity
 
 jadi setelah saya menonton video yang terlah diberikan saya memiliki beberapa kesimpulan
 
