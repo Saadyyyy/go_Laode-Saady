@@ -7,31 +7,27 @@ import (
 
 func munculSekali(angka string) []int {
 	var result []int
-	mapping := make(map[int]int)
+	Cek := make(map[int]int)
 
 	for _, v := range angka {
 		num, _ := strconv.Atoi(string(v))
-		if _, ok := mapping[num]; ok {
-			mapping[num]++
-		}else{
-			mapping[num] = 1
-		}
+		Cek[num]++
 	}
 
-	for _, cek := range angka {
-		num,_ := strconv.Atoi(string(cek))
-
-		if mapping[num] == 1 {
+	for _, v := range angka {
+		num, _ := strconv.Atoi(string(v))
+		if Cek[num] == 1 {
 			result = append(result, num)
 		}
 	}
-
 
 	return result
 }
 
 func main() {
-	// fmt.Println("test")
+
+	// Test cases
+
 	fmt.Println(munculSekali("1234123")) // [4]
 
 	// fmt.Println(munculSekali("76523752")) // [6 3]

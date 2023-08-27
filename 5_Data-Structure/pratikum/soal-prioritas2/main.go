@@ -3,11 +3,21 @@ package main
 import "fmt"
 
 func PairSum(arr []int, target int) []int {
-	var result []int
+	left := 0
+	right := len(arr) - 1
 
-	
+	for left < right {
+		currentSum := arr[left] + arr[right]
+		if currentSum == target {
+			return []int{left, right}
+		} else if currentSum < target {
+			left++
+		} else {
+			right--
+		}
+	}
 
-	return result 
+	return []int{}
 }
 
 func main() {
