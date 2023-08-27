@@ -44,3 +44,11 @@ jadi setelah saya menonton video yang terlah diberikan saya memiliki beberapa ke
 1. Bagaimana pemilihan algorith yang efektif
 2. Pemilihan coding yang bagus
 3. Mengatur waktu running dari codingan supaya secepat mungkin
+
+
+## 5. Data Structure
+
+Jadi setelah saya pelajari saya bisa merangkum tentang meteri di week 2 ini
+1. Array
+2. Slice
+3. Map
