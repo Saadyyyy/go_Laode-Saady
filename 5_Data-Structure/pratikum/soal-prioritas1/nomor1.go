@@ -1,29 +1,52 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
-func ArrayMarge(ArrayA, ArrayB []string) []string {
+func ArrayMerge(arrayA, arrayB []string) []string {
 	var result []string
-	cek := make(map[string]bool)
+	mapping := make(map[string]bool)
 
-	for _, v := range ArrayA {
-		result = append(result, v)
-		cek[v] = true
+	for _, va := range arrayA {
+		result = append(result, va)
+		mapping[va] = true
 	}
-
-	for _, vb := range ArrayB {
-		if cek[vb] == false {
+	for _, vb := range arrayB {
+		if mapping[vb] == false {
 			result = append(result, vb)
 		}
 	}
+
 	return result
 }
 
 func main() {
-	// fmt.Println(ArrayMarge([]string{"King","Devil Jin", "Akuma"},[]string{"eddie","steve", "geese"}))
-	fmt.Println(ArrayMarge([]string{"segei", "jin"}, []string{"jin", "bryan"}))
-	// fmt.Println(ArrayMarge([]string{"alisa", "yoshimitsu"}, []string{"devil jin", "yoshimitsu", "alisa", "law"}))
-	// fmt.Println(ArrayMarge([]string{}, []string{"devil jin", "sergei"}))
-	// fmt.Println(ArrayMarge([]string{"hwoarang"}, []string{}))
-	// fmt.Println(ArrayMarge([]string{}, []string{}))
+
+	// Test cases
+
+	// fmt.Println(ArrayMerge([]string{"king", "devil jin", "akuma"}, []string{"eddie", "steve", "geese"}))
+
+	// ["king", "devil jin", "akuma", "eddie", "steve", "geese"]
+
+	fmt.Println(ArrayMerge([]string{"sergei", "jin"}, []string{"jin", "steve", "bryan"}))
+
+	// ["sergei", "jin", "steve", "bryan"]
+
+	// fmt.Println(ArrayMerge([]string{"alisa", "yoshimitsu"}, []string{"devil jin", "yoshimitsu", "alisa", "law"}))
+
+	// ["alisa", "yoshimitsu", "devil jin", "law"]
+
+	// fmt.Println(ArrayMerge([]string{}, []string{"devil jin", "sergei"}))
+
+	// ["devil jin", "sergei"]
+
+	// fmt.Println(ArrayMerge([]string{"hwoarang"}, []string{}))
+
+	// ["hwoarang"]
+
+	// fmt.Println(ArrayMerge([]string{}, []string{}))
+
+	// []
+
 }
