@@ -7,7 +7,6 @@ func caesar(offset int, input string) string {
 	for _, v := range input {
 		intv := (int(v)+offset-97)%26 + 97
 		result += string(intv)
-
 	}
 	return result
 }
