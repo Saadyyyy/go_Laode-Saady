@@ -24,10 +24,10 @@ func main() {
 
 	// fmt.Println(fibonacci(2)) // 1
 
-	fmt.Println(fibonacci(9)) // 34
+	// fmt.Println(fibonacci(9)) // 34
 
 	// fmt.Println(fibonacci(10)) // 55
 
-	// fmt.Println(fibonacci(12)) // 144
+	fmt.Println(fibonacci(12)) // 144
 
 }

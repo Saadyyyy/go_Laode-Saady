@@ -25,7 +25,7 @@ func MostAppearItem(items []string) []pair {
 		result = append(result, pair{name, count})
 	}
 
-	sort.Slice(result, func(i, j int) bool {
+	sort.SliceStable(result, func(i, j int) bool {
 		return result[i].count < result[j].count
 	})
 
