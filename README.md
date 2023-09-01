@@ -62,3 +62,12 @@ jadi setelah yang saya pelajari melalui zoom dan video learning
 3. Pointer adalah sebuah alamat memori atau address dari memory yang bisa di manipulasikan 
 4. method method adalah sebuah function yang dibuat untuk mempermudah kita mengakses struct dari sebuah function
 5. Struct dan Interface adalah sebuah kumpulan atribut yang memiliki tipe data sendiri 
+
+
+## 7. Recursive, Number Theory, Sorting & Searching
+
+Jadi pada materi ini ada beberapa yang dapat saya rangkum
+
+1. Apa itu tentang Recursive 
+2. Apa itu tentang Number Theory
+3. Bagaimana cara shorting dan searching
