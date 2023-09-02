@@ -3,18 +3,15 @@ package main
 import "fmt"
 
 func cek(angka int) bool {
-	result := true
-	if angka != 0 {
-		for i := 2; i*i < angka; i++ {
-			if angka%i == 0 {
-				result = false
-			}
-		}
-	} else {
-		result = false
+	if angka <= 1 {
+		return false
 	}
-	return result
-
+	for i := 2; i < angka; i++ {
+		if angka%i == 0 {
+			return false
+		}
+	}
+	return true
 }
 
 func primeX(number int) int {
