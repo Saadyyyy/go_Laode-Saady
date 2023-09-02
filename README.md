@@ -73,7 +73,7 @@ Jadi pada materi ini ada beberapa yang dapat saya rangkum
 3. Bagaimana cara shorting dan searching
 
 
-##  8 .problem Solving Paradigm - Brute Force, Greedy and Dynamic Programming
+##  8. problem Solving Paradigm - Brute Force, Greedy and Dynamic Programming
 
 Jadi setelah saya melihat video learning di one alterra saya dapat sedikit menyimpulkan
 
