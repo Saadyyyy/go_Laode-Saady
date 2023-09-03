@@ -1,16 +1,28 @@
 package main
 
-func SimpleEquations(a, b, c int) {
-	x := 1
-	y := 2
-	z := 3
-	a = x + y + z
-	b = x * y * z
-	c = x ^ 2 + y ^ 2 + z*2
+import (
+	"fmt"
+)
 
+func SolveEquations(a, b, c int) (x, y, z int, solution bool) {
+	for x := 1; x <= 100; x++ {
+		for y := 1; y <= 100; y++ {
+			for z := 1; z <= 100; z++ {
+				if x+y+z == a && x*y*z == b && x*x+y*y+2*z == c {
+					return x, y, z, true
+				}
+			}
+		}
+	}
+	return 0, 0, 0, false
 }
 
 func main() {
-	SimpleEquations(1, 2, 3)  // no solution
-	SimpleEquations(6, 6, 14) // 1 2 3
+	a, b, c := 6, 6, 14
+	x, y, z, solution := SolveEquations(a, b, c)
+	if solution {
+		fmt.Printf("Solusi ditemukan: x=%d, y=%d, z=%d\n", x, y, z)
+	} else {
+		fmt.Println("Tidak ada solusi")
+	}
 }
