@@ -37,6 +37,6 @@ func abs(x int) int {
 }
 
 func main() {
-	fmt.Println(minCostFrog([]int{10, 30, 40, 20}))         // Output: 30
+	fmt.Println(minCostFrog([]int{10, 10, 40, 20}))         // Output: 30
 	fmt.Println(minCostFrog([]int{30, 10, 60, 10, 60, 50})) // Output: 40
 }

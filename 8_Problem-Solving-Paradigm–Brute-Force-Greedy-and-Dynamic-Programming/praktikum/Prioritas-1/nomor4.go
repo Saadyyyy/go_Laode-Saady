@@ -5,9 +5,9 @@ import (
 )
 
 func SolveEquations(a, b, c int) (x, y, z int, solution bool) {
-	for x := 1; x <= 100; x++ {
-		for y := 1; y <= 100; y++ {
-			for z := 1; z <= 100; z++ {
+	for x := 1; x <= 10000; x++ {
+		for y := 1; y <= 10000; y++ {
+			for z := 1; z <= 10000; z++ {
 				if x+y+z == a && x*y*z == b && x*x+y*y+2*z == c {
 					return x, y, z, true
 				}
