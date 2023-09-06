@@ -84,3 +84,19 @@ Jadi setelah saya melihat video learning di one alterra saya dapat sedikit menyi
 
 ## 9. Concurrent Programing
 
+Jadi setelah saya pelajari apa itu concurrent programing saya dapat merangkum menjadi beberapa bagian
+1. Apa itu Concurrent Programing 
+2. mana lebih efektif dari sequential, parallel dan concurrent
+3. Conncurrent disini yang diplajari adalah goroutine 
+4. saya juga mempelajari bagaimana menggabungkan goroutine dan channel
+5. saya juga belajar bagaimana cara menggabungkan WaitGrup dan Mutex
+
+
+## 10. Clean Code
+
+Disini saya banyak mempelajari bagaimana cara menulis code dengan benar dengan tujuan untuk mempermudah kolaborasi dan deployment saya sudah merangkum materi ini 
+1. Apa itu clean code
+2. Secara singkat clean code adalah style code atau bagaimana kita menulis style code agar mudah di baca dan dipahami
+3. yang saya tau beberapa style code yang sering di gunakan yaitu Camel Case, Snake Case,Kebab Case dan Pascal case
+4. saya juga mempelajari bagaimana menulis variable dengan benar dan sesuai apa yang akan kita lakukan 
+
