@@ -100,3 +100,4 @@ Disini saya banyak mempelajari bagaimana cara menulis code dengan benar dengan t
 3. yang saya tau beberapa style code yang sering di gunakan yaitu Camel Case, Snake Case,Kebab Case dan Pascal case
 4. saya juga mempelajari bagaimana menulis variable dengan benar dan sesuai apa yang akan kita lakukan 
 
+## 11.
