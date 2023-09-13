@@ -114,3 +114,13 @@ Disini saya mempelajari materi yang lumayan susah menurut saya
 2. Bagaimana mengimplementasikan sebuah function di sebuah database
 3. Seberapa hebatnya Union yang dimana sangat bagus untuk mengabunggkan data data
 4. Kita juga bisa menjumlahkan data menggunakan SUM
+
+## 13. Configuration Management and CLI
+
+Baik disini saya mempelajari tentang Cli atau Command Line dan sudah beberapa yang sudah saya rangkum
+
+1. Bagaimana membuat folder membuat file dengan CLI menggunakan mkdir dan touch
+2. Bagaimana cara membuat sebuah script yang bisa di jalankan menggunakan zsh
+3. Banyak hal yang saya pelajari termasuk bagaimana cara manajemen file yang bagus dan lain-lain
+
+# 14.
