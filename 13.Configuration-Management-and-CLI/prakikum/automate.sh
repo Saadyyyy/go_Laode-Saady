@@ -1,0 +1,15 @@
+export URL="https://gist.github.com/tegarimansyah/e91f335753ab2c7fb12815779677e914.js"
+export ROOTDIR="$1 at $(date)"
+
+mkdir "$ROOTDIR"
+mkdir "$ROOTDIR/about_me"
+mkdir "$ROOTDIR/about_me/personal"
+mkdir "$ROOTDIR/about_me/profesional"
+mkdir "$ROOTDIR/my_friends"
+mkdir "$ROOTDIR/my_system_info"
+
+echo"$2" > "$ROOTDIR/about_me/personal/facebook.txt"
+echo"$2" > "$ROOTDIR/about_me/profesional/linkedin.txt"
+curl "$URL" -o "$ROOTDIR/my_friend/list_of_my_friend.txt"
+uname -a > "$ROOTDIR/my_system_info/about_this_laptop.txt"
+ping -c 3 google.com > "$ROOTDIR/my_system_info/internet_connection.text"
