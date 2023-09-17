@@ -123,7 +123,7 @@ Baik disini saya mempelajari tentang Cli atau Command Line dan sudah beberapa ya
 2. Bagaimana cara membuat sebuah script yang bisa di jalankan menggunakan zsh
 3. Banyak hal yang saya pelajari termasuk bagaimana cara manajemen file yang bagus dan lain-lain
 
-# 14. System Design
+## 14. System Design
 
 Pada ini saya mempelajari systen design dan saaya sudah merangkum beberapa poin penting
 
@@ -131,3 +131,11 @@ Pada ini saya mempelajari systen design dan saaya sudah merangkum beberapa poin 
 2. saya juga mempelajari tantang Horizontal Scalling dan Vertikal Scalling
 3. bagaimana penerapan monilihic dan microservies
 4. Saya juga mempelajari tentang perbedaan sql dan Nosql
+
+## 15. RESTful API
+
+pada materi ini saya saya belajar baagaimana cara menggunakan postman untuk mengkonsumi api dan saya merangkum beberapa
+
+1. Bagaimana cara mendapatkan data dari API menggunakan postman
+2. Bagaimana cara mencari data by menggunakan ID menggunakan postman
+3. Menghapus data menggunakan URL dari postman
