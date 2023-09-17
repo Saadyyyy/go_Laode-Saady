@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "683f807c-65ed-4a35-8ba6-be74a15c9af2",
+		"name": "Intro RESTful API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25343880"
+	},
+	"item": [
+		{
+			"name": "Sekenario-1",
+			"item": [
+				{
+					"name": "mendapatkan data",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Mendapatkan ID 3",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Simpan data",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Menghapus data",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
