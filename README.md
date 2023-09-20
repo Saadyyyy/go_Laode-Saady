@@ -139,3 +139,11 @@ pada materi ini saya saya belajar baagaimana cara menggunakan postman untuk meng
 1. Bagaimana cara mendapatkan data dari API menggunakan postman
 2. Bagaimana cara mencari data by menggunakan ID menggunakan postman
 3. Menghapus data menggunakan URL dari postman
+
+## 16 . Intro Echo Golang
+
+Materi ini sanngat seru karena saya mempelajari framework ECHO untuk mempermudah pengetikan code dan saya sudah merangkunnya
+
+1. Membuat resful api menggunakan framework echo
+2. bagaimana cara DATA RENDERING , RETRIEVE DATA dan BINDING DATA
+3. Mempelajari tentang bagaimana mengkumsumsi data dari client
