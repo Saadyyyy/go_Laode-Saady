@@ -147,3 +147,11 @@ Materi ini sanngat seru karena saya mempelajari framework ECHO untuk mempermudah
 1. Membuat resful api menggunakan framework echo
 2. bagaimana cara DATA RENDERING , RETRIEVE DATA dan BINDING DATA
 3. Mempelajari tentang bagaimana mengkumsumsi data dari client
+
+## 17 . ORM & Code Structure (MVC)
+
+Yang bisa saya rangkum dari materiada beberapa
+
+1. Bagaimana cara memisahkan code sesuai dengan folder
+2. saya juga mempalajari tentang ORM
+3. Bagaimana cara imigret database
