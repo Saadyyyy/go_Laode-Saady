@@ -23,5 +23,12 @@ func New() *echo.Echo {
 	buku.GET("/:id", controller.GetBukuIdController)
 	buku.DELETE("/:id", controller.DeletedBukuController)
 	buku.PUT("/:id", controller.UpdatedBukuController)
+
+	blog := e.Group("/blogs")
+	blog.GET("", controller.GetBlogsController)
+	blog.POST("", controller.CreateBlogController)
+	blog.GET("/:id", controller.GetByIdController)
+	blog.PUT("/:id", controller.UpdateBlogController)
+	blog.DELETE("/:id", controller.DeleteBlogController)
 	return e
 }

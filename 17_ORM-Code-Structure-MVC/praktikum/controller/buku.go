@@ -62,6 +62,7 @@ func GetBukuIdController(c echo.Context) error {
 
 }
 
+//Detele Book
 func DeletedBukuController(c echo.Context) error {
 	var buku model.Buku
 	id, err := strconv.Atoi(c.Param("id"))
@@ -93,6 +94,7 @@ func DeletedBukuController(c echo.Context) error {
 	})
 }
 
+//Update Book
 func UpdatedBukuController(c echo.Context) error {
 	var buku model.Buku
 	var bukuUpdate model.Buku
