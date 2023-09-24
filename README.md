@@ -150,8 +150,16 @@ Materi ini sanngat seru karena saya mempelajari framework ECHO untuk mempermudah
 
 ## 17 . ORM & Code Structure (MVC)
 
-Yang bisa saya rangkum dari materiada beberapa
+Yang bisa saya rangkum dari materi ini ada beberapa
 
 1. Bagaimana cara memisahkan code sesuai dengan folder
 2. saya juga mempalajari tentang ORM
 3. Bagaimana cara imigret database
+
+## 18 . Middleware
+
+Pada materi ini saya mempelajari materi tantang middleware dan saya sudah merangkum beberaoa
+
+1. Bagaimana cara agar client tidak sembrang mengakses endpoint
+2. Bagaimana cara mendapatkan JWT token
+3. Cara mengakses JWT token dengan menggunakan Postman
