@@ -163,3 +163,11 @@ Pada materi ini saya mempelajari materi tantang middleware dan saya sudah merang
 1. Bagaimana cara agar client tidak sembrang mengakses endpoint
 2. Bagaimana cara mendapatkan JWT token
 3. Cara mengakses JWT token dengan menggunakan Postman
+
+## 19 . Unit Testing
+
+Pada materi ini saya mempelajari materi tantang bagaimana cara tes codingan yang sudah saya buat
+
+1. Testing function yang telah kita buat dan membuat test case agar bisa di test
+2. Cara menjalankan perintah testing unit
+3. Membuat logic supaya code kita bisa di test
