@@ -171,3 +171,11 @@ Pada materi ini saya mempelajari materi tantang bagaimana cara tes codingan yang
 1. Testing function yang telah kita buat dan membuat test case agar bisa di test
 2. Cara menjalankan perintah testing unit
 3. Membuat logic supaya code kita bisa di test
+
+## 20 . Clean Architecture
+
+Pada materi ini saya bisa merangkum menjadi beberapa
+
+1. Apa itu Clean Architecture
+2. Bagaimana cara mengubah folder yang belum clean menjadi Clean Architecture
+3. Harus paham folder apa untuk controller usecase dan logic agar mempermudah memahami Clean Architecture
