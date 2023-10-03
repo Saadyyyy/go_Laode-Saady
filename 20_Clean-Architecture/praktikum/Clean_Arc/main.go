@@ -1,10 +1,10 @@
 package main
 
 import (
-	configs "Laode_Saady/20_Clean-Architecture/praktikum/belajar-go-echo/app/config"
-	db "Laode_Saady/20_Clean-Architecture/praktikum/belajar-go-echo/app/database"
-	mig "Laode_Saady/20_Clean-Architecture/praktikum/belajar-go-echo/app/migration"
-	"Laode_Saady/20_Clean-Architecture/praktikum/belajar-go-echo/app/router"
+	configs "Laode_Saady/20_Clean-Architecture/praktikum/Clean_Arc/app/config"
+	db "Laode_Saady/20_Clean-Architecture/praktikum/Clean_Arc/app/database"
+	mig "Laode_Saady/20_Clean-Architecture/praktikum/Clean_Arc/app/migration"
+	"Laode_Saady/20_Clean-Architecture/praktikum/Clean_Arc/app/router"
 
 	"fmt"
 

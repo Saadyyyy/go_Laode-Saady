@@ -1,10 +1,10 @@
 package router
 
 import (
-	"Laode_Saady/20_Clean-Architecture/praktikum/belajar-go-echo/app/middleware"
-	"Laode_Saady/20_Clean-Architecture/praktikum/belajar-go-echo/feature/users/controller"
-	"Laode_Saady/20_Clean-Architecture/praktikum/belajar-go-echo/feature/users/repository"
-	uc "Laode_Saady/20_Clean-Architecture/praktikum/belajar-go-echo/feature/users/useCase"
+	"Laode_Saady/20_Clean-Architecture/praktikum/Clean_Arc/app/middleware"
+	"Laode_Saady/20_Clean-Architecture/praktikum/Clean_Arc/feature/users/controller"
+	"Laode_Saady/20_Clean-Architecture/praktikum/Clean_Arc/feature/users/repository"
+	uc "Laode_Saady/20_Clean-Architecture/praktikum/Clean_Arc/feature/users/useCase"
 
 	"github.com/labstack/echo/v4"
 	"gorm.io/gorm"

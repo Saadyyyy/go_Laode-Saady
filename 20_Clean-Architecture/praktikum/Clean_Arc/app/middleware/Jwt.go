@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"Laode_Saady/20_Clean-Architecture/praktikum/belajar-go-echo/constant"
+	"Laode_Saady/20_Clean-Architecture/praktikum/Clean_Arc/constant"
 	"time"
 
 	jwt "github.com/golang-jwt/jwt/v5"

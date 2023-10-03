@@ -1,7 +1,7 @@
 package migration
 
 import (
-	r "Laode_Saady/20_Clean-Architecture/praktikum/belajar-go-echo/feature/users/repository"
+	r "Laode_Saady/20_Clean-Architecture/praktikum/Clean_Arc/feature/users/repository"
 
 	"gorm.io/gorm"
 )

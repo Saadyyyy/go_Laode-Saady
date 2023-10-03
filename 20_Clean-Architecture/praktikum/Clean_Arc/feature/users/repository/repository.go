@@ -1,8 +1,8 @@
 package repository
 
 import (
-	"Laode_Saady/20_Clean-Architecture/praktikum/belajar-go-echo/app/middleware"
-	users "Laode_Saady/20_Clean-Architecture/praktikum/belajar-go-echo/feature/users"
+	"Laode_Saady/20_Clean-Architecture/praktikum/Clean_Arc/app/middleware"
+	users "Laode_Saady/20_Clean-Architecture/praktikum/Clean_Arc/feature/users"
 
 	"gorm.io/gorm"
 )

@@ -1,7 +1,7 @@
 package config
 
 import (
-	"Laode_Saady/20_Clean-Architecture/praktikum/belajar-go-echo/app/config"
+	"Laode_Saady/20_Clean-Architecture/praktikum/Clean_Arc/app/config"
 	"fmt"
 
 	"gorm.io/driver/mysql"

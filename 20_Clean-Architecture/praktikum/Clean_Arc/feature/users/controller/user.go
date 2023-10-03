@@ -1,7 +1,7 @@
 package controller
 
 import (
-	users "Laode_Saady/20_Clean-Architecture/praktikum/belajar-go-echo/feature/users"
+	users "Laode_Saady/20_Clean-Architecture/praktikum/Clean_Arc/feature/users"
 	"net/http"
 
 	"github.com/labstack/echo/v4"
