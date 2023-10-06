@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"Laode_Saady/21_DOCKER/praktikum/Clean_Arc/constant"
+	"saady/constant"
 	"time"
 
 	jwt "github.com/golang-jwt/jwt/v5"

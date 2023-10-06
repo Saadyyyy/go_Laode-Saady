@@ -1,8 +1,8 @@
 package repository
 
 import (
-	"Laode_Saady/21_DOCKER/praktikum/Clean_Arc/app/middleware"
-	users "Laode_Saady/21_DOCKER/praktikum/Clean_Arc/feature/users"
+	"saady/app/middleware"
+	users "saady/feature/users"
 
 	"gorm.io/gorm"
 )

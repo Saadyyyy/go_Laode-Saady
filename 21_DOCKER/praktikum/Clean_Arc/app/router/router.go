@@ -1,10 +1,10 @@
 package router
 
 import (
-	"Laode_Saady/21_DOCKER/praktikum/Clean_Arc/app/middleware"
-	"Laode_Saady/21_DOCKER/praktikum/Clean_Arc/feature/users/controller"
-	"Laode_Saady/21_DOCKER/praktikum/Clean_Arc/feature/users/repository"
-	uc "Laode_Saady/21_DOCKER/praktikum/Clean_Arc/feature/users/useCase"
+	"saady/app/middleware"
+	"saady/feature/users/controller"
+	"saady/feature/users/repository"
+	uc "saady/feature/users/useCase"
 
 	"github.com/labstack/echo/v4"
 	"gorm.io/gorm"

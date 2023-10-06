@@ -1,10 +1,10 @@
 package main
 
 import (
-	configs "Laode_Saady/21_DOCKER/praktikum/Clean_Arc/app/config"
-	db "Laode_Saady/21_DOCKER/praktikum/Clean_Arc/app/database"
-	mig "Laode_Saady/21_DOCKER/praktikum/Clean_Arc/app/migration"
-	"Laode_Saady/21_DOCKER/praktikum/Clean_Arc/app/router"
+	configs "saady/app/config"
+	db "saady/app/database"
+	mig "saady/app/migration"
+	"saady/app/router"
 
 	"fmt"
 

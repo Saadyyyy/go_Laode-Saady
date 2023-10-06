@@ -1,8 +1,8 @@
 package controller
 
 import (
-	users "Laode_Saady/21_DOCKER/praktikum/Clean_Arc/feature/users"
 	"net/http"
+	users "saady/feature/users"
 
 	"github.com/labstack/echo/v4"
 )

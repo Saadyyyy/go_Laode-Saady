@@ -1,8 +1,8 @@
 package config
 
 import (
-	"Laode_Saady/21_DOCKER/praktikum/Clean_Arc/app/config"
 	"fmt"
+	"saady/app/config"
 
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"

@@ -1,4 +1,4 @@
-FROM golang:1.18
+FROM golang:1.21.0-alpine
 
 WORKDIR /app
 
@@ -8,8 +8,10 @@ RUN go mod download
 
 COPY . .
 
-RUN go build -o main.app .
+RUN go build -o /app/main.app .
+
 
 EXPOSE 8000
 
 CMD ["/app/main.app"]
+

@@ -1,7 +1,7 @@
 package migration
 
 import (
-	r "Laode_Saady/21_DOCKER/praktikum/Clean_Arc/feature/users/repository"
+	r "saady/feature/users/repository"
 
 	"gorm.io/gorm"
 )
