@@ -179,3 +179,11 @@ Pada materi ini saya bisa merangkum menjadi beberapa
 1. Apa itu Clean Architecture
 2. Bagaimana cara mengubah folder yang belum clean menjadi Clean Architecture
 3. Harus paham folder apa untuk controller usecase dan logic agar mempermudah memahami Clean Architecture
+
+## 21. DOCKER
+
+Pada materi ini saya sudah merangkum beberapa hal yang telah saya pelajari
+
+1. Bagaimana cara membuat image menggunakan docker
+2. syntak apa saja yang di gunakan untuk docker
+3. Bagaimana cara membuat contaner menggunakan docker
