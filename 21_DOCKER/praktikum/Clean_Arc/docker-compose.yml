@@ -1,0 +1,21 @@
+version: "2.2"
+services:
+  db_mysql:
+    image: "mysql:latest"
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DBPASS}
+      MYSQL_DATABASE: ${DBNAME}
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "${DBHOST}", "-P", "${DBPORT}", "-u${DBUSER}", "-p${DBPASS}"]
+      interval: 5s
+
+  restful_api-user:
+    image: "backend:123"
+    ports:
+      - "${SERVERPORT:-8000}:${SERVERPORT:-8000}"
+    environment:
+      DB_ADDRESS: "${DBHOST}:${DBPORT}"
+      APIPort: ":${SERVERPORT:-8000}"
+    depends_on:
+      db_mysql:
+        condition: service_healthy

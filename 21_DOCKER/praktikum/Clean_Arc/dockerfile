@@ -8,10 +8,8 @@ RUN go mod download
 
 COPY . .
 
-RUN go build -o /app/main.app .
-
+RUN go build -o saady .
 
 EXPOSE 8000
 
-CMD ["/app/main.app"]
-
+CMD ["/app/saady"]
