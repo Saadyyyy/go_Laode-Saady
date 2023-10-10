@@ -1,0 +1,5 @@
+USER 	  : She no went to the market.
+ASSISTANT : She did not go to the market.
+
+USER 	  : helo my name laode saady, i am a student at stti indonesia now i join to kampusmerdeka
+ASSISTANT : Hello, my name is Laode Saady. I am currently a student at STTI Indonesia, and now I have joined the Kampus Merdeka program.
