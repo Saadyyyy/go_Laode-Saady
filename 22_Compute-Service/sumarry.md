@@ -1,4 +1,4 @@
-## 22 . Compute service
+# 22 . Compute service
 
 Amazon Web Services (AWS) menyediakan berbagai layanan komputasi yang dapat membantu Anda menjalankan aplikasi dan beban kerja di lingkungan cloud. Berikut beberapa poin penting tentang layanan komputasi AWS:
 
