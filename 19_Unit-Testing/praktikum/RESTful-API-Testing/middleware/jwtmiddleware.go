@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"Laode_Saady/19_Unit-Testing/praktikum/RESRful-API-Testing/constants"
+	"Laode_Saady/19_Unit-Testing/praktikum/RESTful-API-Testing/constants"
 	"time"
 
 	"github.com/golang-jwt/jwt"

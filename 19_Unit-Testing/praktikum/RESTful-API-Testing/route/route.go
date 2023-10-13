@@ -1,7 +1,7 @@
 package route
 
 import (
-	"Laode_Saady/19_Unit-Testing/praktikum/RESRful-API-Testing/controllers"
+	"Laode_Saady/19_Unit-Testing/praktikum/RESTful-API-Testing/controllers"
 
 	"github.com/labstack/echo/v4"
 )

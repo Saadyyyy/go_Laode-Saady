@@ -1,9 +1,8 @@
 package controllers
 
 import (
-	"Laode_Saady/19_Unit-Testing/praktikum/RESRful-API-Testing/config"
-	"Laode_Saady/19_Unit-Testing/praktikum/RESRful-API-Testing/models"
-
+	"Laode_Saady/19_Unit-Testing/praktikum/RESTful-API-Testing/config"
+	"Laode_Saady/19_Unit-Testing/praktikum/RESTful-API-Testing/models"
 	"net/http"
 	"strconv"
 

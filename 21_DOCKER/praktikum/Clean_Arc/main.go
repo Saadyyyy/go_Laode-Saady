@@ -29,3 +29,11 @@ func main() {
 	router.InitRouter(db, e)
 	e.Logger.Fatal(e.Start(fmt.Sprintf(":%d", cfg.SERVERPORT)))
 }
+
+func sum(n []int) []int {
+	result := []int{}
+	for i := len(n); i > 0; i-- {
+		result = append(result, i+10)
+	}
+	return result
+}

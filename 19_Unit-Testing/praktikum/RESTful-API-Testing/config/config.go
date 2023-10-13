@@ -1,8 +1,9 @@
 package config
 
 import (
-	"Laode_Saady/19_Unit-Testing/praktikum/RESRful-API-Testing/models"
 	"fmt"
+
+	"Laode_Saady/19_Unit-Testing/praktikum/RESTful-API-Testing/models"
 
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
@@ -27,7 +28,7 @@ func init() {
 func InitDB() {
 	config := Config{
 		DB_Username: "root",
-		DB_Password: "La853211",
+		DB_Password: "",
 		DB_Port:     "3306",
 		DB_Host:     "localhost",
 		DB_Name:     "km5",

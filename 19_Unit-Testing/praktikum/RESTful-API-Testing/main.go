@@ -1,8 +1,8 @@
 package main
 
 import (
-	"Laode_Saady/19_Unit-Testing/praktikum/RESRful-API-Testing/config"
-	"Laode_Saady/19_Unit-Testing/praktikum/RESRful-API-Testing/route"
+	"Laode_Saady/19_Unit-Testing/praktikum/RESTful-API-Testing/config"
+	"Laode_Saady/19_Unit-Testing/praktikum/RESTful-API-Testing/route"
 
 	"github.com/labstack/echo/v4"
 )
